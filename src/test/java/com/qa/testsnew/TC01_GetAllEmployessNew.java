@@ -36,6 +36,7 @@ public class TC01_GetAllEmployessNew extends TestBaseRevised
 		System.out.println("Reponse in JSON Format from GET API " + responseJson);
 		   
 		//employee name validation
+		System.out.println(2);
 		String statusValue = TestUtilitiesRevised.getValueByJPath(responseJson, "/status");
 		System.out.println("Status Value is: " + statusValue);
 		softassert.assertEquals(statusValue, "success", "Status Value is not success");
