@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-03T15:40:08 EDT" name="Default suite" finished-at="2022-04-03T15:40:12 EDT" duration-ms="3887">
+    <groups>
+    </groups>
+    <test started-at="2022-04-03T15:40:08 EDT" name="Default test" finished-at="2022-04-03T15:40:12 EDT" duration-ms="3887">
+      <class name="com.qa.testsnew.TC05_DeleteEmployeeRecordNew">
+        <test-method is-config="true" signature="setUpRevised()[pri:0, instance:com.qa.testsnew.TC05_DeleteEmployeeRecordNew@5939a379]" started-at="2022-04-03T15:40:08 EDT" name="setUpRevised" finished-at="2022-04-03T15:40:08 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpRevised -->
+        <test-method signature="deleteEmployeeRecord()[pri:0, instance:com.qa.testsnew.TC05_DeleteEmployeeRecordNew@5939a379]" started-at="2022-04-03T15:40:08 EDT" name="deleteEmployeeRecord" finished-at="2022-04-03T15:40:12 EDT" duration-ms="3857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployeeRecord -->
+      </class> <!-- com.qa.testsnew.TC05_DeleteEmployeeRecordNew -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
